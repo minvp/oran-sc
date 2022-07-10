@@ -1,0 +1,469 @@
+number of e2sim : 1
+value of thread id is 1
+argc : 4 ,ip address:192.168.0.99, port:32222
+
+****************************************************************************************************
+value of thread id is 0
+value of plmn   id is 1
+ip address is:192.168.0.99, port:32222
+Starting KPM processor sim
+er encded is 469
+after encoding message
+here is encoded message 0
+%%about to register callback for subscription for func_id 0
+%%about to register callback for subscription for func_id 1
+ip address at run loop call:192.168.0.99 port:32222
+plmn id is : 1
+After generating e2setup req
+<E2AP-PDU>
+    <initiatingMessage>
+        <procedureCode>1</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <E2setupRequest>
+                <protocolIEs>
+                    <E2setupRequestIEs>
+                        <id>3</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <GlobalE2node-ID>
+                                <gNB>
+                                    <global-gNB-ID>
+                                        <plmn-id>31 00 71</plmn-id>
+                                        <gnb-id>
+                                            <gnb-ID>
+                                                10110101110001100111011110001
+                                            </gnb-ID>
+                                        </gnb-id>
+                                    </global-gNB-ID>
+                                </gNB>
+                            </GlobalE2node-ID>
+                        </value>
+                    </E2setupRequestIEs>
+                    <E2setupRequestIEs>
+                        <id>10</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RANfunctions-List>
+                                <ProtocolIE-SingleContainer>
+                                    <id>8</id>
+                                    <criticality><reject/></criticality>
+                                    <value>
+                                        <RANfunction-Item>
+                                            <ranFunctionID>1</ranFunctionID>
+                                            <ranFunctionDefinition>
+                                                30 00 00 00 05 4F 49 44 31 32 33 05 00 4B 50 4D 
+                                                20 6D 6F 6E 69 74 6F 72 01 01 60 00 01 01 07 00 
+                                                50 65 72 69 6F 64 69 63 20 72 65 70 6F 72 74 01 
+                                                05 14 01 01 1D 00 4F 2D 44 55 20 4D 65 61 73 75 
+                                                72 65 6D 65 6E 74 20 43 6F 6E 74 61 69 6E 65 72 
+                                                20 66 6F 72 20 74 68 65 20 35 47 43 20 63 6F 6E 
+                                                6E 65 63 74 65 64 20 64 65 70 6C 6F 79 6D 65 6E 
+                                                74 01 01 01 01 00 01 02 1D 00 4F 2D 44 55 20 4D 
+                                                65 61 73 75 72 65 6D 65 6E 74 20 43 6F 6E 74 61 
+                                                69 6E 65 72 20 66 6F 72 20 74 68 65 20 45 50 43 
+                                                20 63 6F 6E 6E 65 63 74 65 64 20 64 65 70 6C 6F 
+                                                79 6D 65 6E 74 01 01 01 01 00 01 03 1E 80 4F 2D 
+                                                43 55 2D 43 50 20 4D 65 61 73 75 72 65 6D 65 6E 
+                                                74 20 43 6F 6E 74 61 69 6E 65 72 20 66 6F 72 20 
+                                                74 68 65 20 35 47 43 20 63 6F 6E 6E 65 63 74 65 
+                                                64 20 64 65 70 6C 6F 79 6D 65 6E 74 01 01 01 01 
+                                                00 01 04 1E 80 4F 2D 43 55 2D 43 50 20 4D 65 61 
+                                                73 75 72 65 6D 65 6E 74 20 43 6F 6E 74 61 69 6E 
+                                                65 72 20 66 6F 72 20 74 68 65 20 45 50 43 20 63 
+                                                6F 6E 6E 65 63 74 65 64 20 64 65 70 6C 6F 79 6D 
+                                                65 6E 74 01 01 01 01 00 01 05 1E 80 4F 2D 43 55 
+                                                2D 55 50 20 4D 65 61 73 75 72 65 6D 65 6E 74 20 
+                                                43 6F 6E 74 61 69 6E 65 72 20 66 6F 72 20 74 68 
+                                                65 20 35 47 43 20 63 6F 6E 6E 65 63 74 65 64 20 
+                                                64 65 70 6C 6F 79 6D 65 6E 74 01 01 01 01 00 01 
+                                                06 1E 80 4F 2D 43 55 2D 55 50 20 4D 65 61 73 75 
+                                                72 65 6D 65 6E 74 20 43 6F 6E 74 61 69 6E 65 72 
+                                                20 66 6F 72 20 74 68 65 20 45 50 43 20 63 6F 6E 
+                                                6E 65 63 74 65 64 20 64 65 70 6C 6F 79 6D 65 6E 
+                                                74 01 01 01 01
+                                            </ranFunctionDefinition>
+                                            <ranFunctionRevision>2</ranFunctionRevision>
+                                        </RANfunction-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                                <ProtocolIE-SingleContainer>
+                                    <id>8</id>
+                                    <criticality><reject/></criticality>
+                                    <value>
+                                        <RANfunction-Item>
+                                            <ranFunctionID>0</ranFunctionID>
+                                            <ranFunctionDefinition>
+                                                30 00 00 00 05 4F 49 44 31 32 33 05 00 4B 50 4D 
+                                                20 6D 6F 6E 69 74 6F 72 01 01 60 00 01 01 07 00 
+                                                50 65 72 69 6F 64 69 63 20 72 65 70 6F 72 74 01 
+                                                05 14 01 01 1D 00 4F 2D 44 55 20 4D 65 61 73 75 
+                                                72 65 6D 65 6E 74 20 43 6F 6E 74 61 69 6E 65 72 
+                                                20 66 6F 72 20 74 68 65 20 35 47 43 20 63 6F 6E 
+                                                6E 65 63 74 65 64 20 64 65 70 6C 6F 79 6D 65 6E 
+                                                74 01 01 01 01 00 01 02 1D 00 4F 2D 44 55 20 4D 
+                                                65 61 73 75 72 65 6D 65 6E 74 20 43 6F 6E 74 61 
+                                                69 6E 65 72 20 66 6F 72 20 74 68 65 20 45 50 43 
+                                                20 63 6F 6E 6E 65 63 74 65 64 20 64 65 70 6C 6F 
+                                                79 6D 65 6E 74 01 01 01 01 00 01 03 1E 80 4F 2D 
+                                                43 55 2D 43 50 20 4D 65 61 73 75 72 65 6D 65 6E 
+                                                74 20 43 6F 6E 74 61 69 6E 65 72 20 66 6F 72 20 
+                                                74 68 65 20 35 47 43 20 63 6F 6E 6E 65 63 74 65 
+                                                64 20 64 65 70 6C 6F 79 6D 65 6E 74 01 01 01 01 
+                                                00 01 04 1E 80 4F 2D 43 55 2D 43 50 20 4D 65 61 
+                                                73 75 72 65 6D 65 6E 74 20 43 6F 6E 74 61 69 6E 
+                                                65 72 20 66 6F 72 20 74 68 65 20 45 50 43 20 63 
+                                                6F 6E 6E 65 63 74 65 64 20 64 65 70 6C 6F 79 6D 
+                                                65 6E 74 01 01 01 01 00 01 05 1E 80 4F 2D 43 55 
+                                                2D 55 50 20 4D 65 61 73 75 72 65 6D 65 6E 74 20 
+                                                43 6F 6E 74 61 69 6E 65 72 20 66 6F 72 20 74 68 
+                                                65 20 35 47 43 20 63 6F 6E 6E 65 63 74 65 64 20 
+                                                64 65 70 6C 6F 79 6D 65 6E 74 01 01 01 01 00 01 
+                                                06 1E 80 4F 2D 43 55 2D 55 50 20 4D 65 61 73 75 
+                                                72 65 6D 65 6E 74 20 43 6F 6E 74 61 69 6E 65 72 
+                                                20 66 6F 72 20 74 68 65 20 45 50 43 20 63 6F 6E 
+                                                6E 65 63 74 65 64 20 64 65 70 6C 6F 79 6D 65 6E 
+                                                74 01 01 01 01
+                                            </ranFunctionDefinition>
+                                            <ranFunctionRevision>2</ranFunctionRevision>
+                                        </RANfunction-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                            </RANfunctions-List>
+                        </value>
+                    </E2setupRequestIEs>
+                </protocolIEs>
+            </E2setupRequest>
+        </value>
+    </initiatingMessage>
+</E2AP-PDU>
+er encded is 990
+client_fd in while loop  is : 3
+in e2ap_handle_sctp_data()
+decoding...
+full buffer
+ 
+length of data 42
+result 0
+index is 2
+showing xer of data
+<E2AP-PDU>
+    <successfulOutcome>
+        <procedureCode>1</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <E2setupResponse>
+                <protocolIEs>
+                    <E2setupResponseIEs>
+                        <id>4</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <GlobalRIC-ID>
+                                <pLMN-Identity>13 10 14</pLMN-Identity>
+                                <ric-ID>
+                                    10101010110011001110
+                                </ric-ID>
+                            </GlobalRIC-ID>
+                        </value>
+                    </E2setupResponseIEs>
+                    <E2setupResponseIEs>
+                        <id>9</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RANfunctionsID-List>
+                                <ProtocolIE-SingleContainer>
+                                    <id>6</id>
+                                    <criticality><ignore/></criticality>
+                                    <value>
+                                        <RANfunctionID-Item>
+                                            <ranFunctionID>1</ranFunctionID>
+                                            <ranFunctionRevision>2</ranFunctionRevision>
+                                        </RANfunctionID-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                                <ProtocolIE-SingleContainer>
+                                    <id>6</id>
+                                    <criticality><ignore/></criticality>
+                                    <value>
+                                        <RANfunctionID-Item>
+                                            <ranFunctionID>0</ranFunctionID>
+                                            <ranFunctionRevision>2</ranFunctionRevision>
+                                        </RANfunctionID-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                            </RANfunctionsID-List>
+                        </value>
+                    </E2setupResponseIEs>
+                </protocolIEs>
+            </E2setupResponse>
+        </value>
+    </successfulOutcome>
+</E2AP-PDU>
+main function of e2sim ended 1
+client_fd in while loop  is : 3
+in e2ap_handle_sctp_data()
+decoding...
+full buffer
+
+length of data 39
+result 0
+index is 1
+showing xer of data
+<E2AP-PDU>
+    <initiatingMessage>
+        <procedureCode>8</procedureCode>
+        <criticality><ignore/></criticality>
+        <value>
+            <RICsubscriptionRequest>
+                <protocolIEs>
+                    <RICsubscriptionRequest-IEs>
+                        <id>29</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RICrequestID>
+                                <ricRequestorID>123</ricRequestorID>
+                                <ricInstanceID>2</ricInstanceID>
+                            </RICrequestID>
+                        </value>
+                    </RICsubscriptionRequest-IEs>
+                    <RICsubscriptionRequest-IEs>
+                        <id>5</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RANfunctionID>0</RANfunctionID>
+                        </value>
+                    </RICsubscriptionRequest-IEs>
+                    <RICsubscriptionRequest-IEs>
+                        <id>30</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RICsubscriptionDetails>
+                                <ricEventTriggerDefinition>30 31</ricEventTriggerDefinition>
+                                <ricAction-ToBeSetup-List>
+                                    <ProtocolIE-SingleContainer>
+                                        <id>19</id>
+                                        <criticality><ignore/></criticality>
+                                        <value>
+                                            <RICaction-ToBeSetup-Item>
+                                                <ricActionID>1</ricActionID>
+                                                <ricActionType><report/></ricActionType>
+                                                <ricSubsequentAction>
+                                                    <ricSubsequentActionType><continue/></ricSubsequentActionType>
+                                                    <ricTimeToWait><zero/></ricTimeToWait>
+                                                </ricSubsequentAction>
+                                            </RICaction-ToBeSetup-Item>
+                                        </value>
+                                    </ProtocolIE-SingleContainer>
+                                </ricAction-ToBeSetup-List>
+                            </RICsubscriptionDetails>
+                        </value>
+                    </RICsubscriptionRequest-IEs>
+                </protocolIEs>
+            </RICsubscriptionRequest>
+        </value>
+    </initiatingMessage>
+</E2AP-PDU>
+initiating message
+count3
+size4
+next present value 1
+value of pres ranfuncid is 2
+next present value 2
+value of pres ranfuncid is 2
+equal pres to ranfuncid
+next present value 3
+value of pres ranfuncid is 2
+After loop, func_id is 0
+Function Id of message is 0
+%%we are getting the subscription callback for func id 0
+Calling callback function
+Calling callback_kpm_subscription_request
+count3
+size4
+The next present value 1
+in case request id
+requestorId 123
+instanceId 2
+adding E2AP_PDU object in global map having ricinstance id= 2
+added succesfully
+The next present value 2
+in case ran func id
+The next present value 3
+in case subscription details
+in case subscription details 1
+in case subscription details 2
+in case subscription details 3
+action count1
+After Processing Subscription Request
+requestorId 123
+instanceId 2
+Action ID 0 1
+in for loop i = 0
+<E2AP-PDU>
+    <successfulOutcome>
+        <procedureCode>8</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <RICsubscriptionResponse>
+                <protocolIEs>
+                    <RICsubscriptionResponse-IEs>
+                        <id>29</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RICrequestID>
+                                <ricRequestorID>123</ricRequestorID>
+                                <ricInstanceID>2</ricInstanceID>
+                            </RICrequestID>
+                        </value>
+                    </RICsubscriptionResponse-IEs>
+                    <RICsubscriptionResponse-IEs>
+                        <id>5</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RANfunctionID>0</RANfunctionID>
+                        </value>
+                    </RICsubscriptionResponse-IEs>
+                    <RICsubscriptionResponse-IEs>
+                        <id>17</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RICaction-Admitted-List>
+                                <ProtocolIE-SingleContainer>
+                                    <id>14</id>
+                                    <criticality><reject/></criticality>
+                                    <value>
+                                        <RICaction-Admitted-Item>
+                                            <ricActionID>1</ricActionID>
+                                        </RICaction-Admitted-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                            </RICaction-Admitted-List>
+                        </value>
+                    </RICsubscriptionResponse-IEs>
+                </protocolIEs>
+            </RICsubscriptionResponse>
+        </value>
+    </successfulOutcome>
+</E2AP-PDU>
+RIC Procedurecode in encode_and_send_sctp_data : 8 
+client_fd value in encode_and_send_sctp_data : 3 
+
+Sending RIC Indication with seqnum = 1 max_num_of_Ind = 1 
+RIC Indication Generated
+initiating message
+RIC Procedurecode in encode_and_send_sctp_data : 5 
+client_fd value in encode_and_send_sctp_data : 3 
+client_fd in while loop  is : 3
+in e2ap_handle_sctp_data()
+decoding...
+full buffer
+Bouncer Control OK
+
+length of data 0
+result 2
+index is 3
+showing xer of data
+<E2AP-PDU>
+    <unsuccessfulOutcome>
+        <procedureCode>111</procedureCode>
+        <criticality><ignore/></criticality>
+        <value>client_fd in while loop  is : 3
+in e2ap_handle_sctp_data()
+decoding...
+full buffer
+
+length of data 22
+result 0
+index is 1
+showing xer of data
+<E2AP-PDU>
+    <initiatingMessage>
+        <procedureCode>9</procedureCode>
+        <criticality><ignore/></criticality>
+        <value>
+            <RICsubscriptionDeleteRequest>
+                <protocolIEs>
+                    <RICsubscriptionDeleteRequest-IEs>
+                        <id>29</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RICrequestID>
+                                <ricRequestorID>123</ricRequestorID>
+                                <ricInstanceID>2</ricInstanceID>
+                            </RICrequestID>
+                        </value>
+                    </RICsubscriptionDeleteRequest-IEs>
+                    <RICsubscriptionDeleteRequest-IEs>
+                        <id>5</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RANfunctionID>0</RANfunctionID>
+                        </value>
+                    </RICsubscriptionDeleteRequest-IEs>
+                </protocolIEs>
+            </RICsubscriptionDeleteRequest>
+        </value>
+    </initiatingMessage>
+</E2AP-PDU>
+initiating message
+count2
+size4
+next present value 1
+value of pres ranfuncid is 2
+next present value 2
+value of pres ranfuncid is 2
+equal pres to ranfuncid
+After loop, func_id is 0
+intentionally returning , func_id to 1
+Function Id of message is 1
+%%we are getting the subscription callback for func id 1
+Calling callback function
+Calling callback_kpm_subscription_delete_request
+count2
+size4
+The next present value 1
+in case request id
+requestorId 123
+instanceId 2
+The next present value 2
+in case ran func id
+After Processing Subscription Delete Request
+requestorId 123
+instanceId 2
+<E2AP-PDU>
+    <successfulOutcome>
+        <procedureCode>9</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <RICsubscriptionDeleteResponse>
+                <protocolIEs>
+                    <RICsubscriptionDeleteResponse-IEs>
+                        <id>29</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RICrequestID>
+                                <ricRequestorID>123</ricRequestorID>
+                                <ricInstanceID>2</ricInstanceID>
+                            </RICrequestID>
+                        </value>
+                    </RICsubscriptionDeleteResponse-IEs>
+                    <RICsubscriptionDeleteResponse-IEs>
+                        <id>5</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <RANfunctionID>0</RANfunctionID>
+                        </value>
+                    </RICsubscriptionDeleteResponse-IEs>
+                </protocolIEs>
+            </RICsubscriptionDeleteResponse>
+        </value>
+    </successfulOutcome>
+</E2AP-PDU>
+RIC Procedurecode in encode_and_send_sctp_data : 9 
+client_fd value in encode_and_send_sctp_data : 3 
+calling free_subscription_request_resources func after sending delete response
+instance id of  E2AP_PDU object  =2 
+before erasing E2AP_PDU object from map, size of glob_map=1 
+after erasing E2AP_PDU object  from map, size of glob_map=0 
+deleting E2AP_PDU object from memory having instance id = 2 
+deleted succsessfully 

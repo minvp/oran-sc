@@ -1,0 +1,654 @@
+{"ts":1636668562765,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Using config file: /cfg/submgr-config.yaml"}
+{"ts":1636668562768,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Serving metrics on: url=/ric/v1/metrics namespace=ricxapp"}
+{"ts":1636668562797,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Register new counter with opts: {ricxapp SDL Stored The total number of stored SDL transactions map[]}"}
+{"ts":1636668562801,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Register new counter with opts: {ricxapp SDL StoreError The total number of SDL store errors map[]}"}
+{"ts":1636668562816,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"SUBMGR"}
+{"ts":1636668562821,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"new rmrClient with parameters: ProtPort=tcp:4560 MaxSize=8192 ThreadType=0 StatDesc=RMR LowLatency=false FastAck=false"}
+{"ts":1636668562821,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Register new counter with opts: {ricxapp RMR Transmitted The total number of transmited RMR messages map[]}"}
+{"ts":1636668562821,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Register new counter with opts: {ricxapp RMR Received The total number of received RMR messages map[]}"}
+{"ts":1636668562821,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Register new counter with opts: {ricxapp RMR TransmitError The total number of RMR transmission errors map[]}"}
+{"ts":1636668562821,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Register new counter with opts: {ricxapp RMR ReceiveError The total number of RMR receive errors map[]}"}
+{"ts":1636668562822,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Xapp started, listening on: :8080"}
+{"ts":1636668562823,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Connection to database established!"}
+{"ts":1636668562823,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"rmrClient: RMR is ready after 0 seconds waiting..."}
+1636668562 1/RMR [INFO] ric message routing library on SI95/g mv=3 flg=00 (280477f 4.4.4 built: Nov 16 2020)
+{"ts":1636668562828,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:22"},"msg":"Serving subscriptions on 0.0.0.0:8088\n"}
+2021/11/11 22:09:22 Serving xapp framework at http://[::]:8088
+RMR is ready now ...
+{"ts":1636668576532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668577281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668591532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668592281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:09:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668606532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:10:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668607282,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:10:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668621532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:10:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668622281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:10:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668636532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:10:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668637281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:10:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668651532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:10:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668652281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:10:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668666532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:11:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668667281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:11:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668681532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:11:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668682281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:11:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668696535,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:11:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668697281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:11:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668711532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:11:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668712281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:11:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668726532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:12:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668727281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:12:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668741532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:12:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668742281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:12:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668756532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:12:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668757281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:12:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668771532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:12:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668772281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:12:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668786532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:13:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668787281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:13:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668801532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:13:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668802281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:13:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668816532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:13:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668817281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:13:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668831532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:13:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668832281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:13:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668846532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:14:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668847281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:14:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668861532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:14:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668862281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:14:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668876532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:14:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668877281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:14:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668891532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:14:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668892281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:14:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668906532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:15:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668907281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:15:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668921532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:15:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668922281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:15:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668936532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:15:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668937281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:15:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668951532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:15:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668952281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:15:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668966532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:16:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668967281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:16:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668981532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:16:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668982281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:16:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636668996532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:16:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636668997281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:16:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669011532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:16:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669012281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:16:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669026532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:17:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669027281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:17:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669041532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:17:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669042281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:17:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669056532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:17:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669057281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:17:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669071532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:17:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669072281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:17:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669086532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:18:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669087281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:18:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669101532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:18:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669102281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:18:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669116532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:18:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669117281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:18:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669131532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:18:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669132281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:18:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669146532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:19:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669147281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:19:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669161532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:19:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669162281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:19:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669176532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:19:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669177281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:19:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669191532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:19:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669192281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:19:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669206533,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:20:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669207281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:20:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669221532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:20:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669222281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:20:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669236532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:20:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669237281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:20:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669251532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:20:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669252281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:20:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669266532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:21:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669267281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:21:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669281532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:21:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669282281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:21:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669296532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:21:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669297281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:21:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669311532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:21:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669312281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:21:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669326532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:22:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669327281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:22:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669341532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:22:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669342281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:22:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669356532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:22:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669357281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:22:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669371532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:22:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669372281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:22:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669386532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:23:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669387281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:23:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669401532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:23:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669402281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:23:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669416532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:23:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669417281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:23:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669431532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:23:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669432281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:23:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669446532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:24:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669447281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:24:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669461532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:24:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669462281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:24:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669476532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:24:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669477281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:24:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669491532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:24:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669492281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:24:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669506532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:25:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669507281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:25:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669521532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:25:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669522281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:25:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669536532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:25:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669537281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:25:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669551532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:25:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669552281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:25:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669566532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:26:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669567281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:26:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669581532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:26:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669582281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:26:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669596532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:26:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669597281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:26:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669611532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:26:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669612281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:26:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669626532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:27:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669627281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:27:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669641532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:27:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669642281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:27:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669656532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:27:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669657281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:27:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669671532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:27:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669672281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:27:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669686533,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:28:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669687281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:28:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669701532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:28:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669702281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:28:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669716532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:28:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669717281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:28:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669731532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:28:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669732281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:28:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669746532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:29:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669747281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:29:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669761532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:29:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669762281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:29:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669776532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:29:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669777281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:29:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669791532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:29:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669792281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:29:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669806532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:30:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669807281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:30:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669821532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:30:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669822281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:30:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669836532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:30:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669837281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:30:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669851532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:30:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669852281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:30:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669866532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:31:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669867281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:31:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669881532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:31:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669882281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:31:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669896532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:31:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669897281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:31:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669911532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:31:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669912281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:31:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669926532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:32:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669927281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:32:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669941532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:32:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669942281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:32:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669956532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:32:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669957281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:32:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669971532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:32:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669972281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:32:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636669986532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:33:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636669987281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:33:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670001532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:33:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670002281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:33:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670016532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:33:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670017281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:33:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670031532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:33:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670032281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:33:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670046532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:34:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670047281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:34:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670061532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:34:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670062281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:34:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670076532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:34:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670077281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:34:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670091532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:34:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670092281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:34:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670106532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:35:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670107281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:35:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670121532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:35:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670122281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:35:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670136532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:35:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670137281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:35:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670151532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:35:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670152281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:35:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670166532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:36:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670167281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:36:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670181532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:36:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670182290,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:36:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670196532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:36:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670197281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:36:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670211533,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:36:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670212281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:36:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670226532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:37:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670227281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:37:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670241532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:37:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670242281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:37:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670256532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:37:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670257281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:37:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670271532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:37:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670272281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:37:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670286532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:38:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670287281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:38:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670301532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:38:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670302281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:38:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670316532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:38:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670317281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:38:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670331532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:38:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670332281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:38:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670346532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:39:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670347281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:39:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670361532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:39:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670362281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:39:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670376534,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:39:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670377281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:39:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670391532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:39:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670392281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:39:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670406532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:40:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670407281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:40:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670421532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:40:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670422281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:40:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670436532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:40:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670437281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:40:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670451532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:40:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670452281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:40:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670466532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:41:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670467283,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:41:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670481532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:41:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670482281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:41:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670496532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:41:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670497281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:41:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670511532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:41:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670512281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:41:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670526532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:42:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670527281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:42:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670541532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:42:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670542281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:42:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670556532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:42:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670557281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:42:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670571532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:42:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670572281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:42:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670586532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:43:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670587281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:43:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670601534,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:43:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670602281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:43:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670616532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:43:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670617281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:43:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670631532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:43:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670632281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:43:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670646532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:44:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670647281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:44:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670661532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:44:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670662281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:44:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670676532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:44:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670677281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:44:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670691532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:44:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670692281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:44:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670706532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:45:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670707281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:45:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670721532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:45:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670722281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:45:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670736532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:45:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670737281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:45:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670751532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:45:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670752281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:45:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670766532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:46:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670767281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:46:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670781532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:46:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670782281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:46:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670796533,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:46:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670797281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:46:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670811532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:46:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670812281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:46:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670826532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:47:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670827281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:47:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670841532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:47:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670842292,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:47:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670856532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:47:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670857281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:47:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670871532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:47:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670872281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:47:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670886532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670887281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670901532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670902281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670916532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670917281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670931532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670932281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670939491,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:59"},"msg":"MSG from XAPP: params(Src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 Mtype=12010 SubId=-1 Xid=1804289383 Meid=meid(RanName=gnb_130_1080_b5c67788) Paylens=39/39 Paymd5=bfe88af50e3a61e34c3b4f1d83f99d94)"}
+InitiatingMessage ::= {
+    procedureCode: 8
+    criticality: 1 (ignore)
+    value: RICsubscriptionRequest ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICsubscriptionRequest-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 1
+                    ricInstanceID: 0
+                }
+            }
+            RICsubscriptionRequest-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 0
+            }
+            RICsubscriptionRequest-IEs ::= {
+                id: 30
+                criticality: 0 (reject)
+                value: RICsubscriptionDetails ::= {
+                    ricEventTriggerDefinition: 30 31
+                    ricAction-ToBeSetup-List: RICactions-ToBeSetup-List ::= {
+                        ProtocolIE-SingleContainer ::= {
+                            id: 19
+                            criticality: 1 (ignore)
+                            value: RICaction-ToBeSetup-Item ::= {
+                                ricActionID: 1
+                                ricActionType: 0 (report)
+                                ricSubsequentAction: RICsubsequentAction ::= {
+                                    ricSubsequentActionType: 0 (continue)
+                                    ricTimeToWait: 0 (zero)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+InitiatingMessage ::= {
+    procedureCode: 8
+    criticality: 1 (ignore)
+    value: RICsubscriptionRequest ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICsubscriptionRequest-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 123
+                    ricInstanceID: 1
+                }
+            }
+            RICsubscriptionRequest-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 0
+            }
+            RICsubscriptionRequest-IEs ::= {
+                id: 30
+                criticality: 0 (reject)
+                value: RICsubscriptionDetails ::= {
+                    ricEventTriggerDefinition: 30 31
+                    ricAction-ToBeSetup-List: RICactions-ToBeSetup-List ::= {
+                        ProtocolIE-SingleContainer ::= {
+                            id: 19
+                            criticality: 1 (ignore)
+                            value: RICaction-ToBeSetup-Item ::= {
+                                ricActionID: 1
+                                ricActionType: 0 (report)
+                                ricSubsequentAction: RICsubsequentAction ::= {
+                                    ricSubsequentActionType: 0 (continue)
+                                    ricTimeToWait: 0 (zero)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+{"ts":1636670939505,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:59"},"msg":"MSG to E2T: (retry 0) transsubs(trans(1/meid(RanName=gnb_130_1080_b5c67788))) params(Src= Mtype=12010 SubId=1 Xid= Meid=meid(RanName=gnb_130_1080_b5c67788) Paylens=39/39 Paymd5=2228baecf15aa9969a474cb6ebefca34)"}
+{"ts":1636670939509,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:59"},"msg":"MSG from E2T: params(Src=service-ricplt-e2term-rmr-alpha.ricplt:38000 Mtype=12011 SubId=-1 Xid=   184096323467 Meid=meid(RanName=gnb_130_1080_b5c67788) Paylens=33/33 Paymd5=021c8e4eb996f0a08198c62a90d4c87c)"}
+SuccessfulOutcome ::= {
+    procedureCode: 8
+    criticality: 0 (reject)
+    value: RICsubscriptionResponse ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICsubscriptionResponse-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 123
+                    ricInstanceID: 1
+                }
+            }
+            RICsubscriptionResponse-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 0
+            }
+            RICsubscriptionResponse-IEs ::= {
+                id: 17
+                criticality: 0 (reject)
+                value: RICaction-Admitted-List ::= {
+                    ProtocolIE-SingleContainer ::= {
+                        id: 14
+                        criticality: 0 (reject)
+                        value: RICaction-Admitted-Item ::= {
+                            ricActionID: 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+SuccessfulOutcome ::= {
+    procedureCode: 8
+    criticality: 1 (ignore)
+    value: RICsubscriptionResponse ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICsubscriptionResponse-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 123
+                    ricInstanceID: 1
+                }
+            }
+            RICsubscriptionResponse-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 0
+            }
+            RICsubscriptionResponse-IEs ::= {
+                id: 17
+                criticality: 0 (reject)
+                value: RICaction-Admitted-List ::= {
+                    ProtocolIE-SingleContainer ::= {
+                        id: 14
+                        criticality: 0 (reject)
+                        value: RICaction-Admitted-Item ::= {
+                            ricActionID: 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+{"ts":1636670939510,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:48:59"},"msg":"MSG to XAPP:  transxapp(trans(0/meid(RanName=gnb_130_1080_b5c67788))/transkey(service-ricxapp-bouncer-xapp-rmr.ricxapp:4560/1804289383)/0) params(Src= Mtype=12011 SubId=1 Xid=1804289383 Meid=meid(RanName=gnb_130_1080_b5c67788) Paylens=33/33 Paymd5=31f160f36dbbe35b995725335f1cdec0)"}
+{"ts":1636670946532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:49:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670947281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:49:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670961532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:49:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670962281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:49:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670976532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:49:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670977281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:49:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636670991532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:49:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636670992281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:49:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671006532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671007281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671021532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671022281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671035486,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:35"},"msg":"MSG from XAPP: params(Src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 Mtype=12020 SubId=-1 Xid=0846930886 Meid=meid(RanName=gnb_130_1080_b5c67788) Paylens=22/22 Paymd5=795c732ed60ff2e74495d7da3cadf9b2)"}
+InitiatingMessage ::= {
+    procedureCode: 9
+    criticality: 0 (reject)
+    value: RICsubscriptionDeleteRequest ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICsubscriptionDeleteRequest-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 1
+                    ricInstanceID: 1
+                }
+            }
+            RICsubscriptionDeleteRequest-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 1
+            }
+        }
+    }
+}
+InitiatingMessage ::= {
+    procedureCode: 9
+    criticality: 1 (ignore)
+    value: RICsubscriptionDeleteRequest ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICsubscriptionDeleteRequest-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 123
+                    ricInstanceID: 1
+                }
+            }
+            RICsubscriptionDeleteRequest-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 0
+            }
+        }
+    }
+}
+{"ts":1636671035487,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:35"},"msg":"MSG to E2T: (retry 0) transsubs(trans(3/meid(RanName=gnb_130_1080_b5c67788))) params(Src= Mtype=12020 SubId=1 Xid= Meid=meid(RanName=gnb_130_1080_b5c67788) Paylens=22/22 Paymd5=bef16bc5fbe677e1d9b07f93790b940a)"}
+{"ts":1636671035492,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:35"},"msg":"MSG from E2T: params(Src=service-ricplt-e2term-rmr-alpha.ricplt:38000 Mtype=12021 SubId=-1 Xid=   184096323489 Meid=meid(RanName=gnb_130_1080_b5c67788) Paylens=22/22 Paymd5=fec0d465e4aef21b07990342c2dd4bb3)"}
+SuccessfulOutcome ::= {
+    procedureCode: 9
+    criticality: 0 (reject)
+    value: RICsubscriptionDeleteResponse ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICsubscriptionDeleteResponse-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 123
+                    ricInstanceID: 1
+                }
+            }
+            RICsubscriptionDeleteResponse-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 0
+            }
+        }
+    }
+}
+SuccessfulOutcome ::= {
+    procedureCode: 9
+    criticality: 1 (ignore)
+    value: RICsubscriptionDeleteResponse ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICsubscriptionDeleteResponse-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 123
+                    ricInstanceID: 1
+                }
+            }
+            RICsubscriptionDeleteResponse-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 0
+            }
+        }
+    }
+}
+{"ts":1636671035493,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:35"},"msg":"MSG to XAPP:  transxapp(trans(2/meid(RanName=gnb_130_1080_b5c67788))/transkey(service-ricxapp-bouncer-xapp-rmr.ricxapp:4560/0846930886)/1) params(Src= Mtype=12021 SubId=1 Xid=0846930886 Meid=meid(RanName=gnb_130_1080_b5c67788) Paylens=22/22 Paymd5=8ccfbc0d17d55d26152f2591f1bd15c8)"}
+{"ts":1636671036532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671037281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671040493,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:40"},"msg":"CLEAN subs(reqid(123:1)/meid(RanName=gnb_130_1080_b5c67788)/)"}
+{"ts":1636671051532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671052281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:50:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671066532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:51:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671067281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:51:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671081532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:51:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671082281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:51:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671096532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:51:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671097281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:51:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671111532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:51:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671112281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:51:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671126532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:52:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671127281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:52:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671141532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:52:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671142281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:52:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671156532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:52:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671157281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:52:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671171532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:52:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671172281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:52:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671186532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:53:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671187281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:53:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671201532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:53:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671202281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:53:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671216532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:53:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671217281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:53:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671231532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:53:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671232281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:53:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671246532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:54:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671247281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:54:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671261532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:54:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671262281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:54:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671276532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:54:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671277281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:54:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671291532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:54:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671292281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:54:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671306532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:55:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671307281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:55:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671321532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:55:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671322281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:55:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671336532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:55:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671337281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:55:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671351533,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:55:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671352281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:55:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671366532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:56:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671367281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:56:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671381532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:56:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671382281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:56:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671396532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:56:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671397281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:56:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671411532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:56:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671412281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:56:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671426532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:57:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671427281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:57:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671441532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:57:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671442281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:57:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671456532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:57:36"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671457281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:57:37"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671471532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:57:51"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671472281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:57:52"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671486532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:58:06"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671487281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:58:07"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}
+{"ts":1636671501532,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:58:21"},"msg":"restapi: method=GET url=/ric/v1/health/ready"}
+{"ts":1636671502281,"crit":"INFO","id":"submgr","mdc":{"time":"2021-11-11T22:58:22"},"msg":"restapi: method=GET url=/ric/v1/health/alive"}

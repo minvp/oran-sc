@@ -1,0 +1,229 @@
+{"ts":1639138171900,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Starting thread 139641281730368"}
+{"ts":1639138171900,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Xapp Name set to bouncer-xapp from environment variable"}
+{"ts":1639138171900,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Xapp ID set to bouncer-xapp from environment variable"}
+{"ts":1639138171900,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Ports set to 4560 from environment variable"}
+1639138171 7/RMR [INFO] ric message routing library on SI95/g mv=3 flg=00 (f1d10cd 4.0.5 built: May  7 2020)
+{"ts":1639138171901,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":">>> waiting for RMR, file= xapp-utils/xapp_rmr.cc, line=61"}
+{"ts":1639138172901,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Context is Ready, file= xapp-utils/xapp_rmr.cc, line=65"}
+{"ts":1639138172902,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Created Bouncer Xapp Instance"}
+1639138172 7/RMR [INFO] sends: ts=1639138172 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138172 7/RMR [INFO] sends: ts=1639138172 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=0 succ=0 fail=0 (hard=0 soft=0)
+{"ts":1639138172914,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"GNB List in R-NIB {\"gnb_list\":[{\"inventory_name\":\"gnb_130_170_b5c67788\",\"global_nb_id\":{\"plmn_id\":\"310071\",\"nb_id\":\"10110101110001100111011110001\"}},{\"inventory_name\":\"gnb_130_1380_b5c67788\",\"global_nb_id\":{\"plmn_id\":\"31008D\",\"nb_id\":\"10110101110001100111011110001\"}}]} "}
+1639138203 7/RMR [INFO] sends: ts=1639138203 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138203 7/RMR [INFO] sends: ts=1639138203 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138203 7/RMR [INFO] sends: ts=1639138203 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138203 7/RMR [INFO] sends: ts=1639138203 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138234 7/RMR [INFO] sends: ts=1639138234 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138234 7/RMR [INFO] sends: ts=1639138234 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138234 7/RMR [INFO] sends: ts=1639138234 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138234 7/RMR [INFO] sends: ts=1639138234 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+{"ts":1639138242915,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Preparing to send subscription in file= xapp.cc, line=201"}
+{"ts":1639138257915,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"GNBList size : 2"}
+{"ts":1639138257915,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"sending 1 subscription request out of : 2"}
+{"ts":1639138257915,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"instance id for subsreq  = 0"}
+{"ts":1639138257916,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Sending subscription in file= xapp.cc, line=246 for MEID gnb_130_170_b5c67788"}
+{"ts":1639138257916,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Sending thread 139641281730368"}
+{"ts":1639138257916,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"hdr->meid = gnb_130_170_b5c67788"}
+{"ts":1639138257916,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"------ start of Xid updated, file= xapp-utils/xapp_rmr.cc, line=110"}
+{"ts":1639138257916,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"before xapp_send_buff Xid=1804289383, file= xapp-utils/xapp_rmr.cc, line=116"}
+{"ts":1639138257916,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Xid=1804289383, file= xapp-utils/xapp_rmr.cc, line=119"}
+{"ts":1639138257918,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Message Sent: RMR State = RMR_OK"}
+{"ts":1639138257918,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"_xapp_send_buff->xaction: "}
+{"ts":1639138257918,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"./xapp-mgmt/subs_mgmt.hpp, 188 :: Transmitted subscription request for trans_id  gnb_130_170_b5c67788"}
+{"ts":1639138257918,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Entry added for Transaction ID: gnb_130_170_b5c67788"}
+{"ts":1639138257918,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Subscription SUCCESSFUL in file= xapp.cc, line=260 for MEID gnb_130_170_b5c67788"}
+{"ts":1639138257918,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freeing subscription request memory"}
+{"ts":1639138257918,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freed subscription request memory "}
+{"ts":1639138257918,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freeing subscription request memory"}
+{"ts":1639138257918,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freed subscription request memory "}
+1639138265 7/RMR [INFO] sends: ts=1639138265 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138265 7/RMR [INFO] sends: ts=1639138265 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138265 7/RMR [INFO] sends: ts=1639138265 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=1 succ=1 fail=0 (hard=0 soft=0)
+1639138265 7/RMR [INFO] sends: ts=1639138265 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"GNBList size : 2"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"sending 2 subscription request out of : 2"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"instance id for subsreq  = 0"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Sending subscription in file= xapp.cc, line=246 for MEID gnb_130_1380_b5c67788"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Sending thread 139641281730368"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"hdr->meid = gnb_130_1380_b5c67788"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"------ start of Xid updated, file= xapp-utils/xapp_rmr.cc, line=110"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"before xapp_send_buff Xid=0846930886, file= xapp-utils/xapp_rmr.cc, line=116"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Xid=0846930886, file= xapp-utils/xapp_rmr.cc, line=119"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Message Sent: RMR State = RMR_OK"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"_xapp_send_buff->xaction: "}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"./xapp-mgmt/subs_mgmt.hpp, 188 :: Transmitted subscription request for trans_id  gnb_130_1380_b5c67788"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Entry added for Transaction ID: gnb_130_1380_b5c67788"}
+{"ts":1639138272919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Subscription SUCCESSFUL in file= xapp.cc, line=260 for MEID gnb_130_1380_b5c67788"}
+{"ts":1639138272919,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freeing subscription request memory"}
+{"ts":1639138272919,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freed subscription request memory "}
+{"ts":1639138272919,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freeing subscription request memory"}
+{"ts":1639138272919,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freed subscription request memory "}
+{"ts":1639138282919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Starting Listener Threads. Number of Workers = 1"}
+{"ts":1639138282919,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Receiver Thread file= xapp.cc, line=100"}
+{"ts":1639138282920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Starting receiver thread 139640837228288"}
+{"ts":1639138282921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Listening at Thread: 139640837228288"}
+{"ts":1639138282921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Received Message of Type: 12011"}
+{"ts":1639138282921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Received Message:   @ "}
+{"ts":1639138282921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Received subscription message of type = 12011"}
+{"ts":1639138282921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Received MEID: gnb_130_170_b5c67788"}
+{"ts":1639138283921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Subscription Handler: Status for meid gnb_130_170_b5c67788 WAS: 1"}
+{"ts":1639138283921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Subscription Handler: Status for meid gnb_130_170_b5c67788 IS: 2"}
+{"ts":1639138283921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Free RMR Received MEID memory: gnb_130_170_b5c67788(0x80003790)"}
+{"ts":1639138283921,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Total Indications received : 1"}
+{"ts":1639138283921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Listening at Thread: 139640837228288"}
+{"ts":1639138283921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Received Message of Type: 12050"}
+{"ts":1639138283921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Received Message: "}
+{"ts":1639138283921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Decoding indication for msg = 12050"}
+{"ts":1639138283921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Data_size = 141"}
+{"ts":1639138283922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"rval.code = 0 "}
+InitiatingMessage ::= {
+    procedureCode: 5
+    criticality: 1 (ignore)
+    value: RICindication ::= {
+        protocolIEs: ProtocolIE-Container ::= {
+            RICindication-IEs ::= {
+                id: 29
+                criticality: 0 (reject)
+                value: RICrequestID ::= {
+                    ricRequestorID: 123
+                    ricInstanceID: 2
+                }
+            }
+            RICindication-IEs ::= {
+                id: 5
+                criticality: 0 (reject)
+                value: 1
+            }
+            RICindication-IEs ::= {
+                id: 15
+                criticality: 0 (reject)
+                value: 1
+            }
+            RICindication-IEs ::= {
+                id: 27
+                criticality: 0 (reject)
+                value: 1
+            }
+            RICindication-IEs ::= {
+                id: 28
+                criticality: 0 (reject)
+                value: 0 (report)
+            }
+            RICindication-IEs ::= {
+                id: 25
+                criticality: 0 (reject)
+                value: 
+                    3F 30 80 37 34 37 38 B5 C6 77 88 20 37 34 37 22 
+                    5B D6 00 70 37 34 37 98 80 31 30 30 09 09 40 70 
+                    47 4E 42 43 55 55 50 35 00 37 34 37 38 B5 C6 77 
+                    88
+            }
+            RICindication-IEs ::= {
+                id: 26
+                criticality: 0 (reject)
+                value: 
+                    00 01 00 02 48 1C 47 4E 42 43 55 55 50 35 08 08 
+                    37 34 37 00 00 00 4C 40 31 30 30 01 80 09 00 00 
+                    00 00
+            }
+            RICindication-IEs ::= {
+                id: 20
+                criticality: 0 (reject)
+                value: 63 70 69 64
+            }
+        }
+    }
+}
+{"ts":1639138283922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Received indication message of type = 12050"}
+{"ts":1639138283922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Number of Indications Received = 1"}
+{"ts":1639138283922,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Total Indications received : 2"}
+{"ts":1639138283922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Return to Sender Message of Type: 12040"}
+{"ts":1639138283922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Return to Sender Message: Bouncer Control OK "}
+{"ts":1639138283925,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Listening at Thread: 139640837228288"}
+1639138296 7/RMR [INFO] sends: ts=1639138296 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138296 7/RMR [INFO] sends: ts=1639138296 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138296 7/RMR [INFO] sends: ts=1639138296 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=1 succ=2 fail=0 (hard=0 soft=0)
+1639138296 7/RMR [INFO] sends: ts=1639138296 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2term-rmr-alpha.ricplt:38000 open=1 succ=0 fail=0 (hard=0 soft=0)
+1639138296 7/RMR [INFO] sends: ts=1639138296 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138327 7/RMR [INFO] sends: ts=1639138327 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138327 7/RMR [INFO] sends: ts=1639138327 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138327 7/RMR [INFO] sends: ts=1639138327 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=1 succ=2 fail=0 (hard=0 soft=0)
+1639138327 7/RMR [INFO] sends: ts=1639138327 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2term-rmr-alpha.ricplt:38000 open=1 succ=0 fail=0 (hard=0 soft=0)
+1639138327 7/RMR [INFO] sends: ts=1639138327 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138358 7/RMR [INFO] sends: ts=1639138358 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138358 7/RMR [INFO] sends: ts=1639138358 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138358 7/RMR [INFO] sends: ts=1639138358 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=1 succ=2 fail=0 (hard=0 soft=0)
+1639138358 7/RMR [INFO] sends: ts=1639138358 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2term-rmr-alpha.ricplt:38000 open=1 succ=0 fail=0 (hard=0 soft=0)
+1639138358 7/RMR [INFO] sends: ts=1639138358 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+{"ts":1639138372920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Preparing to send subscription Delete in file= xapp.cc, line=124"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"GNBList size : 2"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"sending 1 subscription delete request out of : 2"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"instance id for subsdelreq  = 1"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"ran function  id for subsdelreq  = 1"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Sending subscription delete  in file= xapp.cc, line=162 for MEID gnb_130_170_b5c67788"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"subhandler_ref is valid pointer"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Entry for Transaction ID deleted: 20966704"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"res=1"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Sending thread 139641281730368"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"hdr->meid = gnb_130_170_b5c67788"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"------ start of Xid updated, file= xapp-utils/xapp_rmr.cc, line=110"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"before xapp_send_buff Xid=1681692777, file= xapp-utils/xapp_rmr.cc, line=116"}
+{"ts":1639138387920,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Xid=1681692777, file= xapp-utils/xapp_rmr.cc, line=119"}
+{"ts":1639138387921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Message Sent: RMR State = RMR_OK"}
+{"ts":1639138387921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"_xapp_send_buff->xaction: "}
+{"ts":1639138387921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"./xapp-mgmt/subs_mgmt.hpp, 238 :: Transmitted subscription delete request for trans_id  gnb_130_170_b5c67788"}
+{"ts":1639138387921,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Subscription Delete SUCCESSFUL in file= xapp.cc, line=183 for MEID gnb_130_170_b5c67788"}
+{"ts":1639138387921,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freeing subscription delete request object memory"}
+{"ts":1639138387921,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freed subscription delete request object memory"}
+{"ts":1639138387921,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freeing subscription delete request object memory"}
+{"ts":1639138387921,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freed subscription delete request object memory"}
+1639138389 7/RMR [INFO] sends: ts=1639138389 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138389 7/RMR [INFO] sends: ts=1639138389 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138389 7/RMR [INFO] sends: ts=1639138389 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=1 succ=3 fail=0 (hard=0 soft=0)
+1639138389 7/RMR [INFO] sends: ts=1639138389 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2term-rmr-alpha.ricplt:38000 open=1 succ=0 fail=0 (hard=0 soft=0)
+1639138389 7/RMR [INFO] sends: ts=1639138389 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"GNBList size : 2"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"sending 2 subscription delete request out of : 2"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"instance id for subsdelreq  = 2"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"ran function  id for subsdelreq  = 1"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Sending subscription delete  in file= xapp.cc, line=162 for MEID gnb_130_1380_b5c67788"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"subhandler_ref is valid pointer"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Entry for Transaction ID deleted: 20966704"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"res=1"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Sending thread 139641281730368"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"hdr->meid = gnb_130_1380_b5c67788"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"------ start of Xid updated, file= xapp-utils/xapp_rmr.cc, line=110"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"before xapp_send_buff Xid=1714636915, file= xapp-utils/xapp_rmr.cc, line=116"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Xid=1714636915, file= xapp-utils/xapp_rmr.cc, line=119"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Message Sent: RMR State = RMR_OK"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"_xapp_send_buff->xaction: "}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"./xapp-mgmt/subs_mgmt.hpp, 238 :: Transmitted subscription delete request for trans_id  gnb_130_1380_b5c67788"}
+{"ts":1639138402922,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Subscription Delete SUCCESSFUL in file= xapp.cc, line=183 for MEID gnb_130_1380_b5c67788"}
+{"ts":1639138402922,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freeing subscription delete request object memory"}
+{"ts":1639138402922,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freed subscription delete request object memory"}
+{"ts":1639138402922,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freeing subscription delete request object memory"}
+{"ts":1639138402922,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Freed subscription delete request object memory"}
+{"ts":1639138402928,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Received Message of Type: 12021"}
+{"ts":1639138402928,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Received Message:   @ "}
+{"ts":1639138402928,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Received subscription delete message of type = 12021"}
+{"ts":1639138402928,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"RMR Received MEID: gnb_130_1380_b5c67788"}
+{"ts":1639138403928,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Subscription Handler: Status for meid gnb_130_1380_b5c67788 WAS: -1"}
+{"ts":1639138403928,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Subscription Handler: Status for meid gnb_130_1380_b5c67788 IS: -1"}
+{"ts":1639138403928,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Free RMR Received MEID memory: gnb_130_1380_b5c67788(0x80005170)"}
+{"ts":1639138403928,"crit":"DEBUG","id":"b_xapp_main","mdc":{},"msg":"Total Indications received : 3"}
+{"ts":1639138403928,"crit":"INFO","id":"b_xapp_main","mdc":{},"msg":"Listening at Thread: 139640837228288"}
+1639138420 7/RMR [INFO] sends: ts=1639138420 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138420 7/RMR [INFO] sends: ts=1639138420 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138420 7/RMR [INFO] sends: ts=1639138420 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=1 succ=4 fail=0 (hard=0 soft=0)
+1639138420 7/RMR [INFO] sends: ts=1639138420 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2term-rmr-alpha.ricplt:38000 open=1 succ=0 fail=0 (hard=0 soft=0)
+1639138420 7/RMR [INFO] sends: ts=1639138420 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138451 7/RMR [INFO] sends: ts=1639138451 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138451 7/RMR [INFO] sends: ts=1639138451 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138451 7/RMR [INFO] sends: ts=1639138451 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=1 succ=4 fail=0 (hard=0 soft=0)
+1639138451 7/RMR [INFO] sends: ts=1639138451 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2term-rmr-alpha.ricplt:38000 open=1 succ=0 fail=0 (hard=0 soft=0)
+1639138451 7/RMR [INFO] sends: ts=1639138451 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138482 7/RMR [INFO] sends: ts=1639138482 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=10.104.206.123:38000 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138482 7/RMR [INFO] sends: ts=1639138482 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-a1mediator-rmr.ricplt:4562 open=0 succ=0 fail=0 (hard=0 soft=0)
+1639138482 7/RMR [INFO] sends: ts=1639138482 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-submgr-rmr.ricplt:4560 open=1 succ=4 fail=0 (hard=0 soft=0)
+1639138482 7/RMR [INFO] sends: ts=1639138482 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2term-rmr-alpha.ricplt:38000 open=1 succ=0 fail=0 (hard=0 soft=0)
+1639138482 7/RMR [INFO] sends: ts=1639138482 src=service-ricxapp-bouncer-xapp-rmr.ricxapp:4560 target=service-ricplt-e2mgr-rmr.ricplt:3801 open=0 succ=0 fail=0 (hard=0 soft=0)
