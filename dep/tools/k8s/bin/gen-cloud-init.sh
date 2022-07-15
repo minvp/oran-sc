@@ -45,10 +45,10 @@ if [ -z "$WORKSPACE" ]; then
     export WORKSPACE=`git rev-parse --show-toplevel`
 fi
 
-HEAT_DIR="$WORKSPACE/tools/k8s/heat"
-BIN_DIR="$WORKSPACE/tools/k8s/bin"
-ETC_DIR="$WORKSPACE/tools/k8s/etc"
-ENV_DIR="$WORKSPACE/tools/k8s/heat/env"
+HEAT_DIR="$WORKSPACE/dep/tools/k8s/heat"
+BIN_DIR="$WORKSPACE/dep/tools/k8s/bin"
+ETC_DIR="$WORKSPACE/dep/tools/k8s/etc"
+ENV_DIR="$WORKSPACE/dep/tools/k8s/heat/env"
 
 if [ -z "$1" ]; then
   TMPL="${HEAT_DIR}/scripts/k8s_vm_install.sh"
