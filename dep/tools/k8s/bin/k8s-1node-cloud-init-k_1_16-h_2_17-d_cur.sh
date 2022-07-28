@@ -1,13 +1,5 @@
 #!/bin/bash -x
 
-nat_int=enp0s3
-br_int=enp0s8
-honly_int=enp0s9
-
-ip_nat_int=`ifconfig $nat_int | sed -n 2p | awk '{print $2}'`
-ip_br_int=`ifconfig $br_int | sed -n 2p | awk '{print $2}'`
-ip_honly_int=`ifconfig $honly_int | sed -n 2p | awk '{print $2}'`
-nat_gw=`netstat -rn | awk -v a="$nat_int" '$1=="0.0.0.0" && $8==a {print $2}'`
 
 wait_for_pods_running () {
   NS="$2"
@@ -27,7 +19,7 @@ wait_for_pods_running () {
     sleep 5
     NUMPODS=$(eval "$CMD2")
     echo "> waiting for $NUMPODS/$1 pods running in namespace [$NS] with keyword [$KEYWORD]"
-  done
+  done 
 }
 
 
@@ -52,7 +44,7 @@ IPV6IF=""
 rm -rf /opt/config
 mkdir -p /opt/config
 echo "" > /opt/config/docker_version.txt
-echo "1.16.0" > /opt/config/k8s_version.txt
+echo "1.18.0" > /opt/config/k8s_version.txt
 echo "0.7.5" > /opt/config/k8s_cni_version.txt
 echo "2.17.0" > /opt/config/helm_version.txt
 echo "$(hostname -I)" > /opt/config/host_private_ip_addr.txt
@@ -121,12 +113,9 @@ else
   exit
 fi
 
-# add insecure
-curl -s --insecure https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
-# add [trusted]
-echo 'deb [trusted=yes] http://apt.kubernetes.io/ kubernetes-xenial main' > /etc/apt/sources.list.d/kubernetes.list
 
-touch /etc/apt/apt.conf.d/99verify-peer.conf && echo >>/etc/apt/apt.conf.d/99verify-peer.conf "Acquire { https::Verify-Peer false }"
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+echo 'deb http://apt.kubernetes.io/ kubernetes-xenial main' > /etc/apt/sources.list.d/kubernetes.list
 
 mkdir -p /etc/apt/apt.conf.d
 echo "APT::Acquire::Retries \"3\";" > /etc/apt/apt.conf.d/80-retries
@@ -193,8 +182,6 @@ fi
 
 apt-mark hold docker.io kubernetes-cni kubelet kubeadm kubectl
 
-# delete NAT
-sudo ip route delete 0.0.0.0/0 via ${nat_gw}
 
 kubeadm config images pull --kubernetes-version=${KUBEV}
 
@@ -208,7 +195,7 @@ apiVersion: kubeadm.k8s.io/v1alpha3
 kubernetesVersion: v${KUBEV}
 kind: ClusterConfiguration
 apiServerExtraArgs:
-  feature-gates: SCTPSupport=true	
+  feature-gates: SCTPSupport=true
 networking:
   dnsDomain: cluster.local
   podSubnet: 10.244.0.0/16
@@ -237,12 +224,6 @@ mode: ipvs
 EOF
   elif [[ ${KUBEV} == 1.15.* ]] || [[ ${KUBEV} == 1.16.* ]] || [[ ${KUBEV} == 1.18.* ]]; then
     cat <<EOF >/root/config.yaml
-apiVersion: kubeadm.k8s.io/v1beta2
-kind: InitConfiguration
-localAPIEndpoint:
-  advertiseAddress: ${ip_honly_int}
-  bindPort: 6443
----
 apiVersion: kubeadm.k8s.io/v1beta2
 kubernetesVersion: v${KUBEV}
 kind: ClusterConfiguration
@@ -284,8 +265,8 @@ subjects:
     namespace: kube-system
 EOF
 
-##consider add --apiserver-advertise-address <interface bridge IP>          ### refer https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-init/
-  kubeadm init --config /root/config.yaml 
+
+  kubeadm init --config /root/config.yaml
 
   cd /root
   rm -rf .kube
@@ -299,10 +280,10 @@ EOF
 
   kubectl apply -f "https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml"
 
-  wait_for_pods_running 8 kube-system
+  wait_for_pods_running 7 kube-system
 
   kubectl taint nodes --all node-role.kubernetes.io/master-
-
+  
   HELMV=$(cat /opt/config/helm_version.txt)
   HELMVERSION=${HELMV}
   if [ ! -e helm-v${HELMVERSION}-linux-amd64.tar.gz ]; then
@@ -351,13 +332,13 @@ EOF
 fi
 
 
-if [[ ! -z "" && ! -z "" ]]; then
+if [[ ! -z "" && ! -z "" ]]; then 
   echo " " >> /etc/hosts
 fi
-if [[ ! -z "" && ! -z "" ]]; then
+if [[ ! -z "" && ! -z "" ]]; then 
   echo " " >> /etc/hosts
 fi
-if [[ ! -z "" && ! -z "helm.ricinfra.local" ]]; then
+if [[ ! -z "" && ! -z "helm.ricinfra.local" ]]; then 
   echo " helm.ricinfra.local" >> /etc/hosts
 fi
 
